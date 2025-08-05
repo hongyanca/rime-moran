@@ -8,3 +8,9 @@ patch:
     - name: ascii_punct
       # states: ["。，", "．，"]
       reset: 1
+
+  algebra:
+    user_sentence_top:
+      __append:
+        __patch:
+          - moran_defs:/classic_zrm_jqx
