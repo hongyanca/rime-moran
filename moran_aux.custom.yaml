@@ -1,0 +1,16 @@
+patch:
+  switches:
+    - name: full_shape
+      # states: ["半角", "全角"]
+      reset: 0
+    - name: simplification
+      reset: 1
+    - name: ascii_punct
+      # states: ["。，", "．，"]
+      reset: 1
+
+  algebra:
+    user_sentence_top:
+      __append:
+        __patch:
+          - moran_defs:/classic_zrm_jqx

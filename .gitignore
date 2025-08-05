@@ -14,4 +14,7 @@ pinyin_simp*
 sync/
 .env
 .pdm-python
-LOG*.*
+**/*.LOG
+**/LOG
+*.LOG
+**/*.old
